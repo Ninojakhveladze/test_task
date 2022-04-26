@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Task">
+    <test name="TestSuite">
+        <classes>
+            <class name="StepDefinitions.InputTest"/>
+            <class name="StepDefinitions.AlertTest"/>
+            <class name="StepDefinitions.FormTest"/>
+        </classes>
+    </test>
+</suite>
